@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <!-- <link rel="stylesheet" href="signup.html"> -->
+    <title>Online Bank</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logo.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+          
+            <li><a href="Survey1.html">Loans</a></li>
+            <!-- <li><a href="#contact">Contact Us</a></li> -->
+            <li><a href="dashboard.html">Dashboard</a></li>
+            
+        </ul>
+        <div class="rightNav">
+            <button class="btn btn-sm"><a href="login.html">Login</a></button>
+            <button class="btn btn-sm"><a href="signup.html">Register</a></button>
+        </div>
+    </nav>
+
+    <section class="Background">
+    <div class="container">
+
+
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="X:\hackathon\images\sliding images.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="X:\hackathon\images\sliding image2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="X:\hackathon\images\slinding image3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="X:\hackathon\images\slinding image4.jpg" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>
+</section>
+
+    <section class="details">
+      <div class="verification">
+     
+        <img src="X:\hackathon\images\img1.jpg" alt="">
+        <img src="X:\hackathon\images\img2.jpg" alt="">
+        <img src="X:\hackathon\images\img3.jpg" alt="">
+        <img src="X:\hackathon\images\img4.jpg" alt="">
+      </div>
+    </section>
+
+      
+    <section class="about">
+      <div class="paras">
+        <h2 class="text-center">About Us</h2>
+      <p class="sectionTag text-big">Empowering Women Through Financial Inclusion</p>
+      <p class="sectionSubTag text-small">build a future where women thrive, businesses grow, and economies prosper.
+        Our mission is to expand the economic assets, participation, and power of low-income women and 
+        their households by helping them access financial services, knowledge, and markets.
+        
+        Globally, women-owned MSMEs (micro, small & medium enterprises) make up 38% of all MSMEs and are
+         more likely to be smaller, informal, and home-based. While two out of three businesses are owned by 
+         men, women’s entrepreneurship is growing; there are 10 million women-owned businesses in developing 
+         countries alone. Yet, 70% of women entrepreneurs report inadequate access to growth capital. For example,
+         women-owned MSMEs specifically face higher obstacles to accessing credit and financing from financial 
+         institutions, because they are “thin file”—meaning they have limited credit history or formalized business documentation.</p>
+  </div>
+
+  </section>
+
+  <section class="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+     <input class= "form-input" type="text" name="name" id="name" placeholder="Enter your name">
+     <input class= "form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone">
+     <input class= "form-input" type="email" name="email" id="email" placeholder="Enter your Email">
+     <textarea class= "form-input" name="text" id="" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+     <button class="btn btn-dark">Submit</button>
+     
+    </div>
+ </section>
+
+
+
+
+
+
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay:{
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+<footer>
+        <div class="copy">
+          copyright &copy; www.online Banking system All right reserved
+        </div>
+      
+      </footer>
+  
+</body>
+</html>

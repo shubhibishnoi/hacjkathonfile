@@ -1,0 +1,102 @@
+body{
+
+    /*background-repeat: no-repeat;*/
+    /*background:#222;*/
+    background:#FFF;
+    margin-left:245px;
+    margin-right:245px;
+  }
+  
+  
+  #title
+  {
+  
+    text-align: center;
+    font-size: 2.5rem;
+    }
+  
+    #description{
+  
+     text-align: center;
+     font-style: italic;
+     font-size: 1.25rem;
+  }
+  
+  html{
+      color: #689549;
+  }
+  
+  /*label{
+      font-weight: bold;
+      font-size: 30px;
+  }*/
+  
+  #style-radio > label > input{
+      display: inline-block;
+      font-size: 30px;
+      font-weight: bold;
+      
+  }
+  
+  #style-radio>p, #style-radio>label{
+      font-size: 30px;
+       font-weight: bold;
+  }
+  
+  #NAME>label, #EMAIL>label, #AGE>label{
+      font-weight: bold;
+      font-size: 30px;
+  
+  }
+  
+  
+  #NAME>input, #EMAIL>input, #AGE>input{
+      width: 100%; 
+      height: 30px;
+  }
+  
+  #style-option1>p, #style-option2>p{
+  
+     font-size: 30px; 
+     font-weight: bold;
+  }
+  
+  #most-like{
+      box-shadow: 0 0 0 0.1rem rgba(0,123,255,0.25);
+       display: block;
+        width: 100%; 
+        height: 30px;
+  }
+  
+  #style-checkbox>label, #style-checkbox>p{
+  
+  font-size: 30px;
+   font-weight: bold;
+  }
+  
+  #style-checkbox>input{
+  
+  display: inline-block;
+  }
+  
+  #style-comment>P{
+      font-size: 30px;
+   font-weight: bold;
+  }
+  
+  #comments{
+      width: 100%; 
+      height: 165px;
+       font-size: 20px;
+  }
+  
+  #style-button>button{
+      display: block;
+      width:100%; 
+      border-radius: 2px; 
+      color: #777; 
+      height: 40px; 
+      background-color: #774839;
+      font-weight: bold;
+      font-size: 25px;
+  }
